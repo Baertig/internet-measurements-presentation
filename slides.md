@@ -18,7 +18,7 @@ fonts:
   sans: Open Sans
 ---
 
-## Analyzing Google’s Media CDN deployment of QUIC's
+## Analyzing Google’s Media CDN usage of QUIC's
 ## `server preferred address`
 
 Georg Bär-Dumont // 18.02.2025
@@ -83,7 +83,7 @@ layout: two-cols-header
 
 ---
 
-# Motivation for using server preferred address ?
+# Motivation for using server preferred address?
 
 
 <div class="flex pt-15 items-center justify-center">
@@ -172,7 +172,7 @@ Received responses from **127** different Media CDN Servers (`rr2---sn-4g5lzner.
   - use mobile network (I tried supplying a hotspot via my smartphone)
   - rent VM in different network (I tried VM via Google Compute Engine) 
 - Find another customer of Google Media CDN (I tried mlb.com)
-- Watch more Videos
+- Collect more data
 
 
 ---
@@ -198,6 +198,8 @@ Tool to enable future replicability:
 # References
 
 Iyengar, J., Ed., and M. Thomson, Ed., "QUIC: A UDP-Based Multiplexed and Secure Transport", RFC 9000, DOI 10.17487/RFC9000, May 2021, <https://www.rfc-editor.org/info/rfc9000>.
+
+https://blog.chromium.org/2024/12/making-chrome-quicer.html, Accessed at 17.02.2025
 
 https://cloud.google.com/media-cdn/docs/overview, Accessed at 17.02.2025
 
